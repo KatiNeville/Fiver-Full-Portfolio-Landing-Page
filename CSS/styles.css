@@ -1,0 +1,368 @@
+body{
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+/* navigation Section */
+header{
+margin-top: 100px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 0 159px;
+}
+header h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+text-decoration: none;
+color: #FF5678;
+margin-right: auto;
+
+}
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 0, 10px;
+}
+
+li a{
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+display: inline-block;
+padding: 0 10px;
+text-decoration: none;
+color: black;
+}
+.header-button{
+  position: relative;
+  bottom: 10px;
+  margin-left: 10px;
+}
+button{
+background-color: #FF5678;
+height: 59px;
+width: 172px;
+border-style: none;
+border-radius: 5px;
+padding: 15px, 45px, 15px, 45px;
+margin-top: 20px;
+color: white;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+cursor: pointer;
+}
+
+span{
+  color: #FF5678;
+}
+/*****************HEADER SECTION ****************/
+#header{
+  margin-top: 100px;
+  height: 363px;
+  padding: 0 159px;
+}
+#header h1{
+height: 110px;
+width: 500px;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+}
+#header p{
+height: 80px;
+width: 500px;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+}
+.header-icon{
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+
+}
+.header-img{
+  height: 330.8250427246094px;
+  width: 445px;
+  display: inline-block;
+  position: relative;
+  top: 150px;
+}
+.header-img-accent{
+display: inline;
+position: relative;
+left: 295px;
+bottom: 115px;
+}
+
+/**8************ ABOUT-ME SECTION ****************/
+#about-me{
+padding: 0 159px;
+height: 566px;
+width: 956px;
+margin-top: 160px;
+padding-top: 100px;
+}
+#about-me h1{
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+}
+#about-me p{
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about-me-text{
+  width: 50%;
+}
+
+.ink{
+height: 280px;
+width: 410px;
+padding-left: 15%;
+padding-top: 10%;
+}
+.accent{
+height: 50px;
+width: 70px;
+position: relative;
+bottom: 175px;
+left: 245px;
+border-radius: 5%;
+}
+
+/* ***************** EXPERIENCE SECTION*********** */
+#experience{
+margin-top: 160px;
+padding: 0 159px;
+}
+#experience p{
+  margin: 5px 0;
+}
+.exp-1{
+text-align: left;
+width: 50%;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: 0em;
+}
+.svg{
+height: 12px;
+width: 12px;
+}
+.exp-2{
+text-align: right;
+}
+.date{
+  color: #999999;
+  margin: 0;
+}
+.exp-table-1{
+  width: 100%;
+}
+
+.table-cells{
+  padding: 0 55px;
+}
+.td-1{
+  padding-left:0;
+}
+.td-3{
+  padding-right: 0;
+}
+.exp-table-2{
+width: 100%;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+margin-top: 20px;
+
+}
+
+/* ************SKILLSET SECTION************** */
+#skillset{
+  margin-top: 160px;
+  padding: 0 159px;
+}
+.rectangle{
+margin: 15px 53px 0 0px;
+height: 250px;
+width: 250px;
+border-radius: 5px;
+box-shadow: 0 0 10px #9f9f9f;
+padding: 25px 10px 10px;
+}
+
+#skillset h2{
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+
+}
+#skillset h3{
+
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+margin-top:0;
+margin-bottom: 0;
+}
+.skillset-p{
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+}
+
+/* *******WORKS SECTION******* */
+#works{
+  margin-top: 160px;
+  padding: 0 159px;
+}
+#works h2{
+
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+}
+
+.work-images{
+height: 300px;
+width: 444.5px;
+border-radius: 10px;
+margin-right: 20px;
+margin-top: 20px;
+}
+.work-images-2{
+height: 300px;
+width: 444.5px;
+border-radius: 10px;
+margin-left: 15px;
+margin-top: 20px;
+}
+
+.work-div{
+height: 300px;
+width: 929px;
+border-radius: 10px;
+}
+
+/* *******SKILLSET-2********** */
+#skillset-2{
+  margin-top: 160px;
+  padding: 0 159px;
+}
+
+#skillset-2 h2{
+color: #4D4D4D;
+font-size: 32px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+margin-bottom: 0;
+}
+
+#skillset-2 p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  width: 550px;
+  margin: 0 275px 0 0;
+}
+.img{
+  text-align: right;
+}
+table{
+  margin-right: 0;
+}
+/* *********CONNECT SECTION ********* */
+#connect{
+  margin-top: 160px;
+  padding: 0 159px;
+}
+#connect img{
+  width: 25px;
+  height: 25px;
+}
+#connect button{
+  border-radius: 2px;
+}
+.connect-h2-1{
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+margin-bottom: 0;
+}
+.connect-h2-2{
+font-size: 30px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+height: 55px;
+width: 195px;
+margin-bottom: 0;
+position: relative;
+bottom: 22px;
+}
+
+.connect-p{
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+height: 78px;
+width: 521px;
+}
+.icon-text{
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  bottom: 8px;
+}
+.Connect-icons{
+  margin-left: 180px;
+}
+
+/* **************FOOTER SECTION ************ */
+#footer{
+margin-top: 160px;
+background-color: #FF5678;
+height: 100px;
+width: 100% !important;
+}
+#footer h3{
+
+font-size: 25px;
+font-weight: 400;
+line-height: 39px;
+color: white;
+text-align: center;
+padding-top: 35px;
+}
